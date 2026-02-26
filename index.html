@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Service Availability</h1>
+        <input type="text" id="search" placeholder="Search service name...">
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr class="row"><td>Auth API</td><td class="online">Online</td></tr>
+                <tr class="row"><td>Database</td><td class="online">Online</td></tr>
+                <tr class="row"><td>Payment</td><td class="offline">Offline</td></tr>
+            </tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
